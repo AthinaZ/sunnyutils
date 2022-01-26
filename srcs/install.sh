@@ -126,15 +126,15 @@ function finish() {
 }
 
 # install_vim
-# check_vimrc
-# git_config
-# copy_zsh
-# copy_vimrc
-# check_zsh_autosuggestions
-# check_zsh_powerlevel10k
-# check_zsh_theme
-# check_vscode_font
-# set_p10k_config
-# check_p10k_configuration_wizard
-# check_vscode_font
+check_vimrc
+git_config
+copy_zsh
+copy_vimrc
+check_zsh_autosuggestions
+check_zsh_powerlevel10k
+check_zsh_theme
+check_vscode_font
+set_p10k_config
+check_p10k_configuration_wizard
+check_vscode_font
 finish
