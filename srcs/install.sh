@@ -33,8 +33,8 @@ function check_vimrc() {
 
 #function to change git config to use the default git config
 function git_config() {
-	git config --global user.name "dani-MacOS"
-	git config --global user.email "sio2guanoeleo@gmail.com"
+	git config --global user.name "Athina-MacOS"
+	git config --global user.email "azouzoul@student.42roma.it"
 	echo "Git configured!"
 }
 
@@ -126,11 +126,11 @@ function finish() {
 }
 
 # install_vim
-check_vimrc
-git_config
-copy_zsh
-copy_vimrc
-check_zsh_autosuggestions
+# check_vimrc
+# git_config
+# copy_zsh
+# copy_vimrc
+# check_zsh_autosuggestions
 check_zsh_powerlevel10k
 check_zsh_theme
 check_vscode_font
